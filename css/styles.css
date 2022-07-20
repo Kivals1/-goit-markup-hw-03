@@ -59,9 +59,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-.header-list .header-link-current {
-    color: var(--accent-text-color);
-}
+
 .link {
     text-decoration: none;
 }
@@ -130,10 +128,14 @@ body {
     line-height: 1.14;
     
 }
+.header-list .header-link-current {
+    color: var(--accent-text-color);
+}
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-text-color);
 }
+
 
 
 /* CONTACTS*/
@@ -156,6 +158,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .header-phone,
 .header-phone:hover, 
