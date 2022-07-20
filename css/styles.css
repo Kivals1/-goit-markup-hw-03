@@ -442,13 +442,8 @@ border-bottom: 1px solid #ECECEC;
 ul.portfolio-work{
     display: flex;
     flex-wrap: wrap;
-    
-    
-   
-    align-items: center;
-    
-    
-    
+
+    align-items: center;   
     gap: 30px; 
     background: #FFFFFF;
     
@@ -460,10 +455,14 @@ ul.portfolio-work{
     border: 1px solid #EEEEEE;
     
 }
+.portfolio-content{
+    padding: 20px 24px;
+
+}
 .portfolio-title{
     
-    padding-left: 24px;
-    padding-top: 20px;
+    /* padding-left: 24px;
+    padding-top: 20px; */
     font-family: 'Roboto';
         
     font-weight: 700;
@@ -474,9 +473,9 @@ ul.portfolio-work{
 
 }
 .portfolio-text{
-    padding-left: 24px;
+    /* padding-left: 24px;
     padding-top: 4px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
     font-family: 'Roboto';   
     font-weight: 400;
     font-size: 16px;
